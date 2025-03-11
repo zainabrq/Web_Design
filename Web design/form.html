@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="form.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1>form</h1>
+    </div>
+    <div>
+        <form name="formName" onsumbit="return validateForm()">
+            <div>
+                <lable for="nameid">Name</lable>
+                <span>*</span>
+                <span>:</span>
+                <input type="text" id="nameid" name="nameName" required>
+            </div>
+            <div>
+                <lable for="emailid">Email</lable>
+                <span class="redColor">*</span>
+                <span>:</span>
+                <input type="email" id="emailid" name="emailname" required>
+            </div>
+            <div>
+                <lable for="phoneid">Phone no</lable>
+                <span class="redColor">*</span>
+                <span>:</span>
+                <input type="number" id="phoneid" name="phonename" required>
+            </div>
+            <div>
+                <button type="submit" value="submit">Sumbit</button>
+                <button type="reset value=" reset">Clear</button>
+            </div>
+        </form>
+
+
+    </div>
+</body>
+
+</html>
